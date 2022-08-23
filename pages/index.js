@@ -843,7 +843,7 @@ export default function Home({ blogs, profile }) {
                   return (
                     <Link
                       key={item.slug.current}
-                      href={"/blog/" + item.slug.current}
+                      href={"/" + item.slug.current}
                       className="shadow"
                     >
                       <div>
